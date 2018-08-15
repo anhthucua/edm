@@ -6,6 +6,7 @@ body,
 html, 
 .body {
   background: #f3f3f3 !important;
+  font-family: proxima_nova;
 }
 
 .container.header {
@@ -30,12 +31,13 @@ html,
   padding-top: 15px;
 }
 
-.header .wrapper-inner {
-  padding: 20px;
-}
+// .header .wrapper-inner {
+//   padding: 20px;
+// }
 
 .header .container {
   background: transparent;
+
 }
 
 // Social Media
@@ -56,4 +58,136 @@ table.button.google table td {
 
 .wrapper.secondary {
   background: #f3f3f3;
+}
+
+// drop box
+table.container{
+  max-width:722px !important;
+}
+table.main-top {
+  td {
+    padding: 15px 25px;
+  }
+  .logo{
+    width: 200px;
+  }
+  .title{
+    font-size: 32px;
+    line-height: 38px;
+  }
+}
+table.img-gif img {
+  max-width: 700px;
+  width: 100%;
+  padding: 25px 0px;
+
+}
+table.main-middle{
+  td{
+    padding: 10px 0px;
+  }
+  .row{
+    margin: 10px 30px;
+    width:auto;
+  }
+}
+p {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight:300;
+    font-family: proxima_nova,'Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'Sans Serif','Atlas Grotesk';
+  }
+table.button table td{
+  background-color: #0061ff;
+}
+table.button {
+  margin: 0 25px;
+}
+table.button table td a{
+  font-weight: normal !important;
+  padding: 15px 80px;
+  color: #fff;
+  font-size: 18px !important;
+  font-wetght: 300 !important;
+  font-family: proxima_nova,'Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'Sans Serif','Atlas Grotesk';
+  @media screen and (max-width: $global-breakpoint){
+    padding: 15px 30px !important;
+  }
+}
+table.main-middle table {
+   table b {
+    font-size: 18px;
+    lint-height: 26px !important;
+    font-family: proxima_nova,'Open Sans','Lucida Grande','Segoe UI',Arial,Verdana,'Lucida Sans Unicode',Tahoma,'Sans Serif','Atlas Grotesk';
+  }
+}
+hr {
+    padding: 0;
+    margin: 0 30px;
+    border: none;
+    width: auto;
+    height: 1px;
+    background-color: #e6e8eb;
+  }
+// footer
+table.footer{
+  a{
+    color: #15c;
+    text-decoration: underline;
+  }
+}
+// ----hostringer
+p {
+  line-height: 25px;
+  font-family: arial;
+}
+table.container{
+  width:100%;
+}
+table.content-email td{
+  padding: 40px 25px;
+}
+.logo{
+  width:140px !important;
+}
+.header-top{
+  background-image: url("http://i1244.photobucket.com/albums/gg567/anhthu3198/background_zpshmrfbe8q.png?t=1533713233");
+  background-size: cover;
+}  
+.header-top {
+  h1, h5{
+    text-align:center;
+    color: #FFF;
+    line-height: 25px;
+  }
+}
+h5{
+  font-size: 22px;
+  letter-spacing: 4px;
+}
+h1{
+  font-size: 36px;
+
+}
+.text-bold{
+  font-weight: bold;
+}
+// footer
+.p-footer{
+  color: #666;
+  font-family: Helvetica, sans-serif;
+  a{
+    text-decoration: underline;
+  }
+}
+.sub-btn{
+  font-size: 18px !important;
+  margin-top:30px; 
+  margin-bottom: 30px;
+}
+table.button table a{
+  font-weight: normal !important;
+  @media screen and (max-width: $global-breakpoint){
+    padding: 15px 30px !important;
+  }
 }
